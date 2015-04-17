@@ -1,0 +1,89 @@
+<div id="SBSettings">
+	<!-- Header and activation checkbox -->
+	<div class="list-header">
+		salat bot
+		<div class="sb-toggle-box">
+		    <input type="checkbox" id="SBEnableCheck"/>
+		    <label for="SBEnableCheck"></label>
+		</div>
+	</div>
+
+	<div id="SBMenuContent" class="chat-menu-content">
+		<!-- Viewer events like raffles and sub games -->
+		<div class="chat-menu-container">
+			<div class="list-header2">viewer event</div>
+			<div class="chat-menu-content2">
+				<label>
+					Command: <input type="text" id="SBEventCommandInput" value="!join" />
+				</label>
+				<button id="SBEventStartButton">Start event</button>
+			</div>
+		</div>
+
+		<!-- Poll -->
+		<div class="chat-menu-container">
+			<div class="list-header2">poll</div>
+			<div class="chat-menu-content2">
+				<label>
+					Options: <input type="text" id="SBPollOptionsInput" value="yes | no" />
+				</label>
+				<button id="SBPollStartButton">Start poll</button>
+				<button id="SBPollResultButton">Print results</button>
+			</div>
+		</div>
+
+		<!-- Answers to user commands -->
+		<div class="chat-menu-container">
+			<div class="list-header2">user commands</div>
+			<div class="chat-menu-content2">
+				<textarea id="SBCommandsArea"></textarea>
+			</div>
+		</div>
+
+		<!-- Chat filters -->
+		<div class="chat-menu-container mod-required">
+			<div class="list-header2">filters</div>
+			<div class="chat-menu-content2">
+				<table id="SBFilterTable">
+					<tr>
+						<th title="Type">Type</th>
+						<th title="Minimum character count">Min</th>
+						<th title="Allowed percentage">Allow</th>
+						<th title="Timeout in seconds">Time</th>
+					</tr>
+					<tr>
+						<td title="Symbols">Symb</td>
+						<td><input type="number" min="0" id="SBFilterSymbMinInput" value="10" /></td>
+						<td><input type="number" min="0" max="100" id="SBFilterSymbAllowInput" value="100"/></td>
+						<td><input type="number" min="1" id="SBFilterSymbTimeInput" value="30" /></td>
+					</tr>
+					<tr>
+						<td title="Capital letters">Caps</td>
+						<td><input type="number" min="0" id="SBFilterCapsMinInput" value="20" /></td>
+						<td><input type="number" min="0" max="100" id="SBFilterCapsAllowInput" value="100" /></td>
+						<td><input type="number" min="1" id="SBFilterCapsTimeInput" value="30" /></td>
+					</tr>
+					<tr>
+						<td title="Common spam">Spam</td>
+						<td colspan="2">
+							<input type="checkbox" id="SBFilterFancySpamCheck">
+								<label for="SBFilterFancySpamCheck">Fancy spam</label>
+							<br />
+							<input type="checkbox" id="SBFilterAmenoCheck">
+								<label for="SBFilterAmenoCheck">Ameno</label>
+							<br />
+							<input type="checkbox" id="SBFilterSwastikaCheck">
+								<label for="SBFilterSwastikaCheck">Swastika<label>
+						</td>
+						<td><input type="number" min="1" id="SBFilterSpamTimeInput" value="30" /></td>
+					</tr>
+					<tr>
+						<td title="Custom expression to timeout">Custom</td>
+						<td colspan="2"><input type="text" id="SBFilterCustomInput" /></td>
+						<td><input type="number" min="1" id="SBFilterCustomTimeInput" value="30" /></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

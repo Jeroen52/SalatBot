@@ -1,0 +1,11 @@
+{
+    "initialized": true,
+    "messages.event.start": "/me ▬▬▬▬۩ＳＴＡＲＴＩＮＧ－ＥＶＥＮＴ۩▬▬▬▬▬ ＪＯＩＮ　ＷＩＴＨ： ${command}",
+    "messages.event.stop": "/me ▬▬▬▬▬۩ＥＶＥＮＴ－ＳＴＯＰＰＥＤ۩▬▬▬▬▬",
+    "messages.event.result": "/me ▬▬▬▬▬۩ＰＡＲＴＩＣＩＰＡＴＩＮＧ۩▬▬▬▬▬ ${selected}",
+    "messages.poll.start": "/me ▬▬▬▬۩ＳＴＡＲＴＩＮＧ－ＰＯＬＬ۩▬▬▬▬▬▬ ＯＰＴＩＯＮＳ： !vote ${options}",
+    "messages.poll.stop": "/me ▬▬▬▬▬۩ＰＯＬＬ－ＳＴＯＰＰＥＤ۩▬▬▬▬▬▬",
+    "messages.poll.interim": "/me ▬▬▬▬۩ＩＮＴＥＲＩＭ－ＲＥＳＵＬＴＳ۩▬▬▬▬ ${result}",
+    "messages.poll.result": "/me ▬▬▬▬▬۩ＰＯＬＬ－ＲＥＳＵＬＴＳ۩▬▬▬▬▬▬ ${result}",
+    "commandvars.hello": "➤ Aloha ${name}!    ➤ Hey hey hey ${name}!    ➤ Long time no see ${name}! How is it going?    ➤ A-yo, ${name}! What's going on?    ➤ How's things, ${name}!?    ➤ Sup ${name}?    ➤ Holla ${name}!    ➤ Howdy ${name}! The sheriff is in town!    ➤ I hope you have a great ${daytime} ${name}!    ➤ Enjoy your stay illustrious ${name}!    ➤ Hey ${name}! I'm a bot! What do you expect?"
+}

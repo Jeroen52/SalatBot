@@ -1,0 +1,73 @@
+#SBEventBox
+{
+	position: fixed;
+	z-index: 5;
+	top: 50px;
+	left: 0;
+	/*left: -316px;*/
+	width: 300px;
+	background-color: white;
+	border-radius: 0 8px 8px 0;
+	box-shadow: purple 0 0 10px 3px;
+	padding: 8px 16px;
+}
+
+#SBEventCloseLink
+{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.SBEventHeader
+{
+	margin-top: 8px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#SBEventSubscriberBox, #SBEventViewerBox
+{
+	width: 100%;
+	height: 200px;
+	overflow-y: scroll;
+	border-radius: 8px;
+	box-shadow: inset black 0 0 5px 0;
+	margin-bottom: 8px;
+	padding: 5px;
+}
+
+#SBEventBox label
+{
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 5px;
+	vertical-align: top;
+}
+
+#SBRandomSubscriberInput, #SBRandomViewerInput
+{
+	width: 80px;
+}
+
+#SBRandomSubscriberButton, #SBRandomViewerButton
+{
+	float: right;
+	width: 200px;
+}
+
+#SBAnnounceButton
+{
+	margin-top: 24px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#SBInviteButton, #SBInviteRoomInput
+{
+	width: 48%;
+	font-size: 16px;
+	font-weight: bold;
+}

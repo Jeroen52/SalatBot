@@ -1,0 +1,76 @@
+{
+    "name": "salatbot",
+    "title": "SalatBot",
+    "id": "jid1-jeN4BzWnKuKMww",
+    "description": "Local twitch chat bot",
+    "author": "Salatfreak",
+    "license": "MPL 2.0",
+    "version": "0.1",
+    "permissions": {
+        "unsafe-content-script": true
+    },
+    "preferences": [
+        {
+            "name": "initialized",
+            "title": "initialized",
+            "hidden": true,
+            "type": "bool",
+            "value": false
+        },
+        {
+            "name": "messages.event.start",
+            "title": "Event start message",
+            "description": "Message that's going to be shown in chat when an event is started",
+            "type": "string"
+        },
+        {
+            "name": "messages.event.stop",
+            "title": "Event stop message",
+            "description": "Message that's going to be shown in chat when an event is stopped",
+            "type": "string"
+        },
+        {
+            "name": "messages.event.result",
+            "title": "Event result message",
+            "description": "Message that's going to be shown in chat when an event is stopped",
+            "type": "string"
+        },
+        {
+            "name": "messages.poll.start",
+            "title": "Poll start message",
+            "description": "Message that's going to be shown in chat when a poll is started",
+            "type": "string"
+        },
+        {
+            "name": "messages.poll.stop",
+            "title": "Poll stop message",
+            "description": "Message that's going to be shown in chat when a poll is stopped",
+            "type": "string"
+        },
+        {
+            "name": "messages.poll.interim",
+            "title": "Poll interim result message",
+            "description": "Message that shows the interim results during a poll",
+            "type": "string"
+        },
+        {
+            "name": "messages.poll.result",
+            "title": "Poll result message",
+            "description": "Message that shows the poll results",
+            "type": "string"
+        },
+        {
+            "name": "commandvars.hello",
+            "title": "Greeter messages",
+            "description": "Possible answers to greetings separated by four spaces.",
+            "type": "string"
+        },
+        {
+            "name": "debug",
+            "title": "Debug",
+            "description": "Enable reactions to itself and moderators.\nAttention: This might result in recursion and spam the chat with hundreds of messages at once! Only use for testing!",
+            "type": "bool",
+            "value": false
+        }
+    ]
+}

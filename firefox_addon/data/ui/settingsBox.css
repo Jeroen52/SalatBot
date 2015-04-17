@@ -1,0 +1,153 @@
+#SBMenuContent
+{
+	padding-top: 0;
+}
+
+#SBMenuContent button
+{
+	height: 24px;
+	width: 100%;
+}
+
+#SBMenuContent label
+{
+	display: inline-block;
+    margin: 0;
+}
+
+#SBCommandsArea
+{
+	width: 185px;
+	margin: 0;
+	resize: none;
+}
+
+#SBPollOptionsInput, #SBEventCommandInput
+{
+	width: 95%;
+}
+
+#SBFilterTable
+{
+	border-spacing: 0 3px;
+}
+
+#SBFilterTable input[type='number']
+{
+	width: 40px;
+}
+
+#SBFilterCustomInput
+{
+	width: 90px;
+}
+
+.list-header2
+{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #8C8C8C;
+	cursor: pointer;
+}
+
+.list-header2:before
+{
+	content: '';
+	width: 0;
+	height: 0;
+	display: inline-block;
+	vertical-align: center;
+	border-style: solid;
+
+	margin: 0 6px 0 0;
+	border-width: 5px 5px 2px 5px;
+	border-color: #8C8C8C transparent transparent transparent;
+}
+
+.chat-menu-container.folded > .list-header2:before
+{
+	margin: 0 9px 0 2px;
+	border-width: 5px 0 5px 5px;
+	border-color: transparent transparent transparent #8C8C8C;
+}
+
+.chat-menu-content2
+{
+	margin-bottom: 8px;
+}
+
+
+/* Checkbox */
+.sb-toggle-box
+{
+	display: inline-block;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    width: 46px;
+    height: 18px;
+    margin-top: -3px;
+    background-color: rgb(180, 180, 180);
+    box-shadow: inset gray 0 0 3px 1px;
+    border-radius: 12.5px;
+    color: black;
+    line-height: 18px;
+    font-family: PT Sans;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sb-toggle-box:after
+{
+    content: "OFF";
+    margin-right: 4px;
+    float: right;
+}
+
+.sb-toggle-box input { display: none; }
+
+.sb-toggle-box label
+{
+    display: block;
+    position: absolute;
+    top: -1px; bottom: -1px;
+    width: calc(200% - 18px);
+    left: calc(-100% + 18px);
+    margin: 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sb-toggle-box input:checked ~ label
+{
+    left: 0px;
+    transition: 0.2s;
+}
+
+.sb-toggle-box label:before
+{
+    content: "ON";
+    display: block;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: rgb(0, 255, 0);
+    border-radius: 9px 0 0 9px;
+    box-shadow: inset green 0 0 3px 1px;
+    text-indent: 7px;
+}
+
+.sb-toggle-box label:after
+{
+	color: transparent;
+    content: "O";
+    display: block;
+    position: absolute;
+    top: 1; height: 18px;
+    left: calc(50% - 9px);
+    width: 18px;
+    background-color: rgb(200, 200, 200);
+    box-shadow: inset rgb(50, 50, 50) 0 0 3px 1px, rgb(50, 50, 50) 0 0 2px;
+    border-radius: 50%;
+}

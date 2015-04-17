@@ -4,8 +4,9 @@ running as a firefox plugin and allowing automation of simple moderation and
 event organization tasks.  
 
 Keep reading to learn some basics about chat bots and the speciality of the
-SalatBot or read the [manual](http://somewhere.org/) to install and configure
-the SalatBot (This will be done within a few minutes, I promise :D).
+SalatBot or read the
+[manual](https://github.com/Salatfreak/SalatBot/wiki/Tutorial) to install and
+configure the SalatBot (This will be done within a few minutes, I promise).
 
 ## Previous chat bots
 ### What is a chat bot?
@@ -48,11 +49,13 @@ chat commands and events.
 ## What to do next?
 Now that you know the basic idea of the SalatBot, you can go ahead and install
 it into your firefox browsers by just a few clicks. Read the
-[manual](http://somewhere.org/) for further information.  
+[tutorial](https://github.com/Salatfreak/SalatBot/wiki/Tutorial) for further
+information.  
 
 If you would like to take a look into the programming source code, write your
 own extensions or correct my terrible programming style, you are welcome to
-read through my code and documentation and comment or contact me personally
-for whatever reason you would like ;)
+read through my code and
+[documentation](https://github.com/Salatfreak/SalatBot/wiki/Code-documentation)
+and comment or contact me personally for whatever reason you would like ;)
 
 #### Good luck and have fun!

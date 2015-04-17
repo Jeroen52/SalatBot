@@ -224,7 +224,7 @@ function createSalatBot(rawSettings, username, roomModel, channelName, chatContr
 					}
 					else
 					{
-						tmiRoom._events.entered.push(function() { callback(tmiRoom); }, undefined);
+						tmiRoom._events.entered.push(function() { callback(roomModel.findOne(tmiRoom.name).tmiRoom); }, undefined);
 					}
 					return;
 				}

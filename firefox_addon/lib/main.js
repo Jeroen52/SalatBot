@@ -26,7 +26,7 @@ var modification = function() {
 	var modification = {};
 
 	// Specify matched URLs
-	modification.include = /^http:\/\/www\.twitch\.tv\/(\w+)(?:\/chat)?$/;
+	modification.include = /^http:\/\/www\.twitch\.tv\/(\w+)(?:\/chat)?(?:\?.*)?$/;
 
 	// Load script files
 	modification.contentScriptFile = [

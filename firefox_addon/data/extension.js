@@ -5,7 +5,7 @@ if (document.body.innerHTML && unsafeWindow.Twitch.user.isLoggedIn())
 	function getSessionInfo(callback)
 	{
 		// Get channel name
-		var channelName = window.location.pathname.match(/\/(\w+)(?:\/chat)?$/)[1];
+		var channelName = window.location.pathname.match(/\/(\w+)(?:\/chat)?(?:\?.*)?$/)[1];
 
 		// Get chat session
 		var roomModel = unsafeWindow.require('web-client/models/room').default;

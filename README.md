@@ -32,7 +32,7 @@ more popular streams a chat bot is a must have to control the chat flow,
 answer frequently asked questions or to host polls and raffles.
 
 ### What differs the SalatBot from the previous chat bots?
-The usuall chat bot is running on a certain server in the internet, has to be
+The usual chat bot is running on a certain server in the internet, has to be
 invited to your chat, being granted moderation permission and can mainly be
 controlled by the channel owner himself.  
 
